@@ -9,4 +9,5 @@ class Message < ApplicationRecord
     self.image.attached?
   end
   # バリテーションの設定
+  # 異常なし
 end

@@ -8,4 +8,5 @@ class Message < ApplicationRecord
   def was_attached?
     self.image.attached?
   end
+  # バリテーションの設定
 end
